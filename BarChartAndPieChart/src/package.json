@@ -1,0 +1,10 @@
+{
+  "name": "ng2-charts",
+  "dependencies": {
+    "chart.js": "*"
+  },
+  "peerDependencies": {
+    "@angular/common": "*",
+    "@angular/core": "*"
+  }
+}
