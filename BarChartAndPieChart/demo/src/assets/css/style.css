@@ -17,7 +17,27 @@
 .btn-group-lg > .btn, .btn-lg {
   font-size: 18px;
 }
+.tile.blue {
+  background: #2672ec;
+}
 
+.tile.purple, .tile.blue, .tile.red, .tile.orange, .tile.green {
+  color: #fff;
+}
+
+
+.tile {
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.tile.blue:hover {
+  background: #125acd;
+}
 section {
   padding-top: 30px;
 }
